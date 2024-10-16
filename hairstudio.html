@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="hairstudio.css">
+    <script src="https://kit.fontawesome.com/d1eca39abe.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+    <section id="banner">
+        <img src="logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair studio</h1>
+            <p>Style Your Hair Is Style Your Life</p>
+            <div class="banner-btn">
+            <a href="#"><span></span>Find Out</a>
+            <a href="#"><span></span>Subcribe</a>
+            </div>
+
+        </div>
+
+    </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <i class="fa-solid fa-bars" style="color:#fff;" id="menu"></i>
+
+    </div>
+   
+    <script>
+         var menubtn =document.getElementById("menubtn")
+         var sidenav=document.getElementById("sidenav")
+         var menu=document.getElementById("menu")
+         menubtn.onclick=function(){
+            if(sidenav.style.right=="-250px"){
+                sidenav.style.right="0";
+            }
+            else{
+                sidenav.style.right="-250px";
+            }
+         }
+    </script>
+    <section id="features">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="feature">
+                <h1>Experienced Staff</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa-sharp fa-solid fa-shield" style="color: #009688;"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet esse numquam in aliquam necessitatibus dolorem porro quis beatae.</p>
+                    </div>
+                </div>
+                <h1>Preebooking online</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-check-square-o" style="color: #009688;"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet esse numquam in aliquam necessitatibus dolorem porro quis beatae.</p>
+                    </div>
+                </div>
+                <h1>Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-inr" style="color: #009688;"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet esse numquam in aliquam necessitatibus dolorem porro quis beatae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src="img3.jpg">
+            </div>
+        </div>
+
+    </section>
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Better</h1>
+        </div>
+        <div class="service-box">
+             <div class="single-service">
+                <img src="pic1.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Cutting</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod assumenda nostrum cumque nesciunt earum alias.</p>
+                </div>
+             </div> 
+             <div class="single-service">
+                <img src="pic2.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod assumenda nostrum cumque nesciunt earum alias.</p>
+                </div>
+             </div> 
+             <div class="single-service">
+                <img src="pic3.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Shaping</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod assumenda nostrum cumque nesciunt earum alias.</p>
+                </div>
+             </div> 
+             <div class="single-service">
+                <img src="pic4.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Trim</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod assumenda nostrum cumque nesciunt earum alias.</p>
+                </div>
+             </div> 
+        </div>
+        
+    </section> 
+    <section id="testimonial">\
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says</h1>
+        </div>
+                <div class="testimonial-row">
+                    <div class="testimonial-col">
+                        <div class="user">
+                            <img src="img1.jpg">
+                            <div class="user info">
+                                <h4>Ken Norman <i class="fa fa-twitter" style="color: #27c0ff;margin-left: 10px;font-size: 20px;"></i></h4>
+                                <small style="color:#009688">@kennorman</small>
+                            </div>
+                        </div>
+                        <p>"I’ve been coming to this barber shop for over a year now, and I couldn’t be happier! The staff is friendly and always takes the time to understand what I want. My barber, Jake, gives the best fades in town. The atmosphere is welcoming, and I love the vintage decor. Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial-col">
+                        <div class="user">
+                            <img src="img2.jpg">
+                            <div class="user info">
+                                <h4>Michael Mac <i class="fa fa-twitter" style="color: #27c0ff;margin-left: 10px;font-size: 20px;"></i></h4>
+                                <small style="color:#009688">@michaelmac</small>
+                            </div>
+                        </div>
+                        <p>"Great experience overall! The shop is clean and has a cool vibe. I got a classic cut, and my barber was attentive and skilled. I would have given five stars, but there was a bit of a wait even with an appointment. Still, I’ll definitely be back!"</p>
+                    </div>
+                    <div class="testimonial-col">
+                        <div class="user">
+                            <img src="img3.jpg">
+                            <div class="user info">
+                                <h4>Sam Williams <i class="fa fa-twitter" style="color: #27c0ff;margin-left: 10px;font-size: 20px;"></i></h4>
+                                <small style="color:#009688">@samwillianms</small>
+                            </div>
+                        </div>
+                        <p>"I had high hopes based on the reviews, but my experience was just okay. The cut was decent, but it didn't quite match what I asked for. The staff was friendly, though, and the prices are reasonable. I might give it another try, but I’ll be more specific next time."</p>
+                    </div>
+
+                </div>
+
+    </section>
+    <section id="footer">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock-o" style="color: #009688;font-size: 15px;"></i> Monday to Friday - 9am to 9pm </p>
+                <p><i class="fa fa-clock-o" style="color: #009688;font-size: 15px;"></i> Saturday and Sunday - 10am to 11pm </p>
+    
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p><i class="fa fa-map-marker" style="color: #009688;font-size: 15px;margin: 10px;"></i>#30 abc COlony,xyz City IN</p>
+                <p><i class="fa fa-paper-plane" style="color: #009688;font-size: 15px;margin: 10px;"></i>alanjudethomas044@gmail.com</p>
+                <p><i class="fa fa-phone" style="color: #009688;font-size: 15px;margin: 10px;"></i>6236268691</p>
+            </div>
+        </div>
+        <div class="sociallinks">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-youtube" ></i>
+            <p>Copyright Alan Jude Thomas</p>
+
+
+        </div>
+
+    </section>
+
+
+    
+</body>
+</html>
